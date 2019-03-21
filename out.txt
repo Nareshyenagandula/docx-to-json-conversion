@@ -1,0 +1,44 @@
+
+Title: Hybrid model for Text &amp; Image encryption
+Abstract:  Security is major concern in data handling, communication and message transmission on public network. Cryptography is the encryption process of transformation of messages to make information secure and resistant to attack. AES is symmetric encryption standard recommended by NIST. AES is proved to be highly secure, faster and strong encryption algorithm. But in recent years cyber-attacks are continuously developing, therefore security specialists must stay busy in the lab inventing new schemes to keep attackers at bay. Possible attacks on symmetric algorithm can be Brute-force Attack, Differential Attack, Algebraic Attack and Linear Attack. So, to provide strong security in message transmission, AES algorithm with Diffie-Hellman Key exchange algorithm and steganography is proposed. 
+Block diagram
+-108862343158055421864184854485212543
+
+49834812353130096338616999900                                    clientserver
+
+-772341243568Diffie-hellman key exchange
+00Diffie-hellman key exchange
+170361412944900176348510767700 public key public key
+4615543147864Private value
+0Private value
+734786166007Private value
+0Private value
+
+50999581805220011811001807944588329320494Shared secret key
+0Shared secret key
+762000363855Shared secret key
+0Shared secret key
+
+376645718378700175804317834400
+-68580112544882803072337457Shared secret key
+0Shared secret key
+
+446641055136140062429575769429steganography
+steganography
+5927271570955724706956095002Communication channel
+0Communication channel
+19539856378666504008664770005045529621574354374146525985Stego-key
+0Stego-key
+53394436128657cover medium
+0cover medium
+124097157639861578436574971-3320146520542Stego-key
+Stego-key
+223157624078100-4082156182632Cover medium
+Cover medium
+38095476063343Extracting process
+00Extracting process
+6477006134099Embedding process
+00Embedding process
+2329543-114300Shared key
+Shared key
+
